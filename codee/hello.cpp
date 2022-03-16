@@ -119,3 +119,35 @@ int main()
     }
     return 0;
 }
+
+/*
+You need to buy paint for the floor of a rectangular room.
+The given program takes the room's length and width as input.
+
+Task
+Complete the program to calculate and output the area of the room.
+
+Sample Input
+5.4
+2.3
+
+Sample Output
+12.42
+*/
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // sides of the room
+    double length;
+    double width;
+    double outpot;
+    cin >> length;
+    cin >> width;
+
+    // output the area
+    outpot = length * width;
+    cout << outpot;
+    return 0;
+}
