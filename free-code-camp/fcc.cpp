@@ -58,7 +58,9 @@ int main()
     */
     // is_array
 
-    
+    int is_array[] = {65, 6565, 556, 5366, 5, 56, 55};
+
+    cout << is_array;
 
     return 0;
 }
