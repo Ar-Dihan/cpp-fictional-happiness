@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
@@ -41,6 +42,23 @@ int main()
     */
 
     // numbers
+    /*
+    cout << pow(3, 3);
+    cout << sqrt(25);
+    cout << fmax(69, 59) << endl
+        << fmin(69, 96);
+*/
+
+    // input
+    /*
+        cout <<"Enter your name: " << endl;
+        string name;
+        getline(cin, name);
+        cout << "Get lost " << name;
+    */
+    // is_array
+
+    
 
     return 0;
 }
