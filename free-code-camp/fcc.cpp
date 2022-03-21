@@ -82,6 +82,8 @@ int main()
         return 0;
     */
     //  cout << cube(5);
+    // if else
+    /*
     string name;
     getline(cin, name);
     bool isMale = true;
@@ -89,5 +91,36 @@ int main()
     {
         if (name == "atik")
             cout << name << " is a sigma male";
+    }
+    */
+
+    int num1, num2;
+    char op;
+    cout << "enter first number: ";
+    cin >> num1;
+    cout << "enter operator: ";
+    cin >> op;
+    cout << "enter second number: ";
+    cin >> num2;
+
+    if (op == '+')
+    {
+        cout << "your answer is : " << num1 + num2;
+    }
+    else if (op == '-')
+    {
+        cout << "your answer is : " << num1 - num2;
+    }
+    else if (op == '*')
+    {
+        cout << "your answer is : " << num1 * num2;
+    }
+    else if (op == '/')
+    {
+        cout << "your answer is : " << num1 / num2;
+    }
+    else
+    {
+        cout << "something was wrong :( ";
     }
 }
