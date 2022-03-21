@@ -125,13 +125,25 @@ int main()
             cout << "something was wrong :( ";
         }
     */
+    // while loop
+    /*
+        int i = 0;
+        int x;
+        cin >> x;
+        while (i <= x)
+        {
+            cout << i << endl;
+            i++;
+        }
+    */
 
-    int i = 0;
-    int x;
-    cin >> x;
-    while (i <= x)
-    {
-        cout << i << endl;
-        i++;
-    }
+    // Number Guessing Game
+
+    cout << "Guess A number";
+    cout << "Now Multiply this with 2";
+    cout << "Now add 10 with multiplication";
+    cout << "Now divide the number by 2";
+    cout << "minus your guess number";
+
+    cout << "you guess 5";
 }
