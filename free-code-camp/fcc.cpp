@@ -93,34 +93,45 @@ int main()
             cout << name << " is a sigma male";
     }
     */
+    // awesosme calculator;
+    /*
+        int num1, num2;
+        char op;
+        cout << "enter first number: ";
+        cin >> num1;
+        cout << "enter operator: ";
+        cin >> op;
+        cout << "enter second number: ";
+        cin >> num2;
 
-    int num1, num2;
-    char op;
-    cout << "enter first number: ";
-    cin >> num1;
-    cout << "enter operator: ";
-    cin >> op;
-    cout << "enter second number: ";
-    cin >> num2;
+        if (op == '+')
+        {
+            cout << "your answer is : " << num1 + num2;
+        }
+        else if (op == '-')
+        {
+            cout << "your answer is : " << num1 - num2;
+        }
+        else if (op == '*')
+        {
+            cout << "your answer is : " << num1 * num2;
+        }
+        else if (op == '/')
+        {
+            cout << "your answer is : " << num1 / num2;
+        }
+        else
+        {
+            cout << "something was wrong :( ";
+        }
+    */
 
-    if (op == '+')
+    int i = 0;
+    int x;
+    cin >> x;
+    while (i <= x)
     {
-        cout << "your answer is : " << num1 + num2;
-    }
-    else if (op == '-')
-    {
-        cout << "your answer is : " << num1 - num2;
-    }
-    else if (op == '*')
-    {
-        cout << "your answer is : " << num1 * num2;
-    }
-    else if (op == '/')
-    {
-        cout << "your answer is : " << num1 / num2;
-    }
-    else
-    {
-        cout << "something was wrong :( ";
+        cout << i << endl;
+        i++;
     }
 }
