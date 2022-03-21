@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-void saybye()
+void saybye(string name)
 {
-    cout << "tata ";
+    cout << "tata " << name;
 }
 int main()
 {
@@ -69,6 +69,6 @@ int main()
 
     // Function
 
-    saybye();
+    saybye("coders");
     return 0;
 }
