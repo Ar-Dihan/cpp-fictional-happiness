@@ -1,6 +1,10 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+void saybye()
+{
+    cout << "tata ";
+}
 int main()
 {
     /*
@@ -57,10 +61,14 @@ int main()
         cout << "Get lost " << name;
     */
     // is_array
+    /*
+        int is_array[] = {65, 6565, 556, 5366, 5, 56, 55};
 
-    int is_array[] = {65, 6565, 556, 5366, 5, 56, 55};
+        cout << is_array;
+    */
 
-    cout << is_array;
+    // Function
 
+    saybye();
     return 0;
 }
