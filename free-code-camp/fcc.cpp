@@ -7,12 +7,13 @@ void saybye(string name, int age)
     cout << "tata " << name << "\nyou are " << age;
 }
 */
-
+/*
 int cube(int num)
 {
     int result = num * num * num;
     return result;
 }
+*/
 int main()
 {
     /*
@@ -80,5 +81,13 @@ int main()
         saybye("coders", 6565);
         return 0;
     */
-    cout << cube(5);
+    //  cout << cube(5);
+    string name;
+    getline(cin, name);
+    bool isMale = true;
+    if (isMale)
+    {
+        if (name == "atik")
+            cout << name << " is a sigma male";
+    }
 }
