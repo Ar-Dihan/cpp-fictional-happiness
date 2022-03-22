@@ -156,17 +156,26 @@ int main()
         */
 
     // while loop
-
-    int x = 0;
-    int in;
-    cin >> in;
-    while (x < in)
-    {
-        cout << x << endl;
-        if (x % 4 == 0)
+    /*
+        int x = 0;
+        int in;
+        cin >> in;
+        while (x < in)
         {
-            cout << "working\n";
+            cout << x << endl;
+            if (x % 4 == 0)
+            {
+                cout << "working\n";
+            }
+            x++;
         }
-        x++;
-    }
+    */
+    // multiple array
+
+    int myArray[2][3] = {
+        {2, 4, 3},
+        {3, 5, 2}};
+    cout << myArray[0][2]
+         << endl;
+    return 0;
 }
