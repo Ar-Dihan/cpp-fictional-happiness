@@ -148,9 +148,25 @@ int main()
         cout << "you guess 5";
         */
     // for loop
+    /*
+        for (int i = 0; i < 5; i++)
+        {
+            cout << "hello there \n";
+        }
+        */
 
-    for (int i = 0; i < 5; i++)
+    // while loop
+
+    int x = 0;
+    int in;
+    cin >> in;
+    while (x < in)
     {
-        cout<<"dljf";
+        cout << x << endl;
+        if (x % 4 == 0)
+        {
+            cout << "working\n";
+        }
+        x++;
     }
 }
