@@ -175,7 +175,13 @@ int main()
     int myArray[2][3] = {
         {2, 4, 3},
         {3, 5, 2}};
-    cout << myArray[0][2]
-         << endl;
+
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 3; j++)
+            cout << myArray[i][j]
+                 << endl;
+    }
+
     return 0;
 }
