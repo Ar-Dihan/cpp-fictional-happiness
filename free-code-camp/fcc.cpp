@@ -138,12 +138,19 @@ int main()
     */
 
     // Number Guessing Game
+    /*
+        cout << "Guess A number";
+        cout << "Now Multiply this with 2";
+        cout << "Now add 10 with multiplication";
+        cout << "Now divide the number by 2";
+        cout << "minus your guess number";
 
-    cout << "Guess A number";
-    cout << "Now Multiply this with 2";
-    cout << "Now add 10 with multiplication";
-    cout << "Now divide the number by 2";
-    cout << "minus your guess number";
+        cout << "you guess 5";
+        */
+    // for loop
 
-    cout << "you guess 5";
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<"dljf";
+    }
 }
