@@ -14,6 +14,16 @@ int cube(int num)
     return result;
 }
 */
+
+class car
+{
+public:
+    string name;
+    string color;
+    int milage;
+    int horse_pow;
+};
+
 int main()
 {
     /*
@@ -171,17 +181,41 @@ int main()
         }
     */
     // multiple array
+    /*
+        int myArray[2][3] = {
+            {2, 4, 3},
+            {3, 5, 2}};
 
-    int myArray[2][3] = {
-        {2, 4, 3},
-        {3, 5, 2}};
+        for (int i = 0; i < 2; i++)
+        {
+            for (int j = 0; j < 3; j++)
+                cout << myArray[i][j]
+                     << endl;
+        }
+    */
+    // pointer
+    /*
+        int p = 33;
+        cout << &*&p;
+    */
 
-    for (int i = 0; i < 2; i++)
-    {
-        for (int j = 0; j < 3; j++)
-            cout << myArray[i][j]
-                 << endl;
-    }
+    // class & object
+    car car1;
+    cout << "enter car name: ";
+    cin >> car1.name;
+    cout << "enter color: ";
+    cin >> car1.milage;
+    cout << "enter milage: ";
+    cin >> car1.horse_pow;
+    cout << "enter horse-power: ";
+    // car1.name = "fly";
+    // car1.color = "green";
+    // car1.milage = 43;
+    // car1.horse_pow = 828;
 
+    // cout << car1.name << endl
+    //      << car1.color << endl
+    //      << car1.milage << endl
+    //      << car1.horse_pow;
     return 0;
 }
